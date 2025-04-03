@@ -1,0 +1,66 @@
+.sidebar {
+  align-items: center;
+  /* background: linear-gradient(to top, #915fe2, #E2D4F7 280%); */
+  background: #27344f;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  margin: 0 1vw;
+  /* margin-top: 1rem; */
+  position: relative;
+  width: 100%;
+}
+
+.graduation-cap-container {
+  height: 9vw;
+  width: 9vw;
+  /* background: linear-gradient(#915fe2, #7042C0 80%); */
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.graduation-cap-container img {
+  height: 7vw;
+  width: 7vw;
+}
+
+.menu {
+  margin-top: 5vh;
+  text-align: right;
+}
+
+.menu-item {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: rgb(255,255,255,0.5);
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  height: 25px;
+  margin-bottom: 2.5vh;
+  /* margin-left: 2.5vh; */
+  width: 11vw;
+  transition: all 0.2s ease;
+}
+
+.menu-item p {
+  margin-left: 10px;
+}
+
+.menu-item.active{
+  color: rgb(255,255,255);
+  transform: scale(1.02);
+  transition: all 0.2s ease;
+}
+
+.signout {
+  color: rgb(255,255,255);
+  padding-left: 5px;
+  position: absolute;
+  bottom: 3vh;
+}
